@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    short int t,i;
+    int t,i;
     int sum,count1,count2;
     cin>>t;
     while(t--){
@@ -28,5 +28,6 @@ int main()
             sum=sum+i;
         }
         cout<<sum<<endl;
+        delete ar;
     }
 }
